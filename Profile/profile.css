@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(46, 46, 46);
+  color: rgb(235, 230, 230);
+}
+p.strive {
+  padding: 10px;
+  background-color: rgb(109, 106, 106);
+  width: 70%;
+}
+.form-control {
+  width: 20%;
+  background-color: black;
+  color: rgb(235, 228, 228);
+}
+
+div#main.container {
+  margin-top: 50px;
+  width: 700px;
+}
+.sect1,
+.sect2,
+.sect3 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.sect2,
+.sect3 {
+  border-top: 1px solid rgb(58, 54, 54);
+}
+
+h1 {
+  border-bottom: 1px solid rgb(58, 54, 54);
+}
+h6 {
+  background-color: rgb(31, 30, 30);
+  padding: 5px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-3 {
+  border-top: 1px solid rgb(58, 54, 54);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+button {
+  background-color: black;
+  border: 1px solid rgb(58, 54, 54);
+  color: rgb(58, 54, 54);
+  font-weight: 700;
+}
+
+.first {
+  padding: 5px;
+  width: 100px;
+  margin-right: 35px;
+}
+
+.second {
+  padding: 5px;
+  width: 200px;
+  margin-right: 35px;
+  margin-left: 0;
+}
+
+.third {
+  padding: 5px;
+  width: 250px;
+  margin-right: 35px;
+}
+.first:hover,
+.second:hover,
+.third:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+.edit {
+  padding: 5px;
+  width: 100px;
+}
+
+#option1,
+#option2 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+img {
+  padding-top: 15px;
+}
+
+.lab input:checked ~ .checkmark {
+  background-color: black;
+}
